@@ -5,7 +5,7 @@ export default function Home() {
     <main className="bg-gradient-to-tr from-cyan-300 to-blue-900 h-screen w-screen items-center justify-center flex">
       <section className="bg-slate-950 h-[60%] w-[50%] rounded-3xl">
         <dl className="rounded-3xl flex lg:gap-10 gap-5 flex-col lg:flex-row justify-center items-center">
-          <Image className=" order-1 rounded-full sm:rounded-3xl transition-all ease-in delay-300 md:transition-all md:ease-in md:delay-300 lg:transition-all lg:rounded-3xl
+          <Image className=" order-1 rounded-full sm:rounded-3xl transition-all ease-in delay-300 sm:transition-all sm:ease-in sm:delay-300  md:transition-all md:ease-in md:delay-300 lg:transition-all lg:rounded-3xl
           h-[150px] w-[150px] sm:h-[80%] sm:w-[90%] -mt-10 
           lg:my-10 lg:-ml-10 lg:h-[280px] lg:w-[250px]  
           object-cover lg:object-cover shadow-2xl shadow-black" src={ImgWomen} alt="" />
