@@ -13,7 +13,7 @@ export default function Home() {
           lg:my-10 lg:-ml-10 lg:h-[280px] lg:w-[250px]  
           object-cover lg:object-cover shadow-2xl shadow-black" src={ImgWomen} alt="" />
           <dl className=" order-2 lg:w-[70%] text-center lg:text-left flex flex-col justify-center">
-            <section className="transition ease-in-out delay-150 lg:ml-36 hover:text-slate-50">
+            <section className="transition ease-in-out delay-150 hover:text-slate-50">
                 <ThemeSwitch />
               </section>
             <h1 className="text-4xl text-slate-950 dark:text-white font-[family-name:var(--font-rebik-regular)] lg:text-left ">Jess Wilson</h1>
