@@ -3,7 +3,7 @@ import Image from "next/image"
 import ThemeSwitch from "./components/ThemeSwitch";
 export default function Home() {
   return (
-    <main className="bg-gradient-to-tr from-blue-300 to-cyan-900 dark:bg-gradient-to-tr dark:from-cyan-300 dark:to-blue-900 h-screen w-screen items-center justify-center flex">
+    <main className="bg-gradient-to-tr from-blue-300 to-color-blue-600 dark:bg-gradient-to-tr dark:from-cyan-300 dark:to-blue-900 h-screen w-screen items-center justify-center flex">
       {/* card  */}
       <section className="dark:bg-slate-950 bg-slate-50 h-[60%] w-[50%] rounded-3xl">
         <dl className="rounded-3xl flex lg:gap-10 gap-5 flex-col lg:flex-row justify-center items-center">
